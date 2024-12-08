@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Golos Text", sans-serif;
+  scroll-behavior: smooth;
+}
+img,
+input,
+button,
+select {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+.container1 {
+  width: 98%;
+  margin: 0 auto;
+}
+.btmarea {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  bottom: 0;
+}
+.minicard1:hover p {
+  color: #de5703;
+  transition: all 150ms;
+}
+.triplecard:hover div p:first-child {
+  color: #de5703;
+  transition: all 150ms;
+}
+@media (min-width: 1450px) {
+  .container1 {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+.minicar1 {
+  background-image: url(../src/assets/img/card1.png);
+  height: 203px;
+  display: flex;
+  justify-content: flex-end;
+  background-position: right top;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 23px;
+  transition: all 150ms;
+}
+.minicar1:hover h1 {
+  transition: all 150ms;
+  color: #de5703;
+}
+.minicar2 {
+  background-image: url(../src/assets/img/card2.png);
+
+  height: 203px;
+  display: flex;
+  justify-content: flex-end;
+  background-position: right top;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 23px;
+  transition: all 150ms;
+}
+.minicar2:hover h1 {
+  transition: all 150ms;
+  color: #de5703;
+}
+.minicar3 {
+  background-image: url(../src/assets/img/card3.png);
+
+  height: 203px;
+  display: flex;
+  justify-content: flex-end;
+  background-position: right top;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 23px;
+  transition: all 150ms;
+}
+.minicar3:hover h1 {
+  transition: all 150ms;
+  color: #de5703;
+}
+.minicar4 {
+  background-image: url(../src/assets/img/card4.png);
+
+  height: 203px;
+  display: flex;
+  justify-content: flex-end;
+  background-position: right top;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 23px;
+  transition: all 150ms;
+}
+.minicar4:hover h1 {
+  transition: all 150ms;
+  color: #de5703;
+}
+.minicar5 {
+  background-image: url(../src/assets/img/card5.png);
+
+  height: 203px;
+  display: flex;
+  justify-content: flex-end;
+  background-position: right top;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 23px;
+  transition: all 150ms;
+}
+.minicar5:hover h1 {
+  transition: all 150ms;
+  color: #de5703;
+}
+.minicar6 {
+  background-image: url(../src/assets/img/card6.png);
+
+  height: 203px;
+  display: flex;
+  justify-content: flex-end;
+  background-position: right top;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 23px;
+  transition: all 150ms;
+}
+.minicar6:hover h1 {
+  transition: all 150ms;
+  color: #de5703;
+}
+.minicar7 {
+  background-image: url(../src/assets/img/card7.png);
+
+  height: 203px;
+  display: flex;
+  justify-content: flex-end;
+  background-position: right top;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 23px;
+  transition: all 150ms;
+}
+.minicar7:hover h1 {
+  transition: all 150ms;
+  color: #de5703;
+}
+@media (max-width: 640px) {
+  .abc {
+    display: flex;
+  }
+}
+.lngrdnt {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 68.51%);
+}

@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body class="font-golo">
+    <header class="py-4">
+      <nav class="container1">
+        <nav class="flex gap-5 items-center justify-between">
+          <label
+            class="text-[#f56e1e] hidden max-[600px]:block active:scale-[0.9] transition-all hover:text-[#6e7191]"
+            for="check">
+            <i class="fa-solid fa-bars text-[30px]"></i>
+          </label>
+          <a class="w-[175px] h-[69px]" href=""
+            ><img
+              class="w-[175px] h-[69px]"
+              src="./src/assets/svg/logo.svg"
+              alt=""
+          /></a>
+          <button
+            class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 px-5 flex items-center gap-3 max-[748px]:hidden">
+            <i class="fa-solid fa-bars text-[30px]"></i>
+            <p class="max-[1024px]:hidden">Каталог</p>
+          </button>
+          <nav
+            class="px-2 py-4 rounded-[12px] border border-[#aaa] bg-white w-[70%] flex items-center justify-between max-[600px]:hidden">
+            <input
+              placeholder="Я ищу"
+              class="outline-none w-[100%]"
+              type="
+            text" />
+            <img src="./src/assets/svg/search.svg" alt="" />
+          </nav>
+          <nav class="flex items-center gap-5 max-[600px]:hidden">
+            <a class="flex items-center justify-center flex-col" href="/">
+              <img src="./src/assets/svg/cart.svg" alt="" />
+              <p class="text-[12px] text-[#6e7191]">Корзина</p>
+            </a>
+            <a class="flex items-center justify-center flex-col" href="/">
+              <img src="./src/assets/svg/galllery.svg" alt="" />
+              <p class="text-[12px] text-[#6e7191]">Избранное</p>
+            </a>
+
+            <a class="flex items-center justify-center flex-col" href="/">
+              <img src="./src/assets/svg/user.svg" alt="" />
+              <p c class="text-[12px] text-[#6e7191]">Профиль</p>
+            </a>
+          </nav>
+          <nav
+            class="hidden max-[600px]:block text0[18px] text-[#f56e1e] text-[30px] active:scale-[0.9] transition-all hover:text-[#6e7191]">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </nav>
+        </nav>
+      </nav>
+      <nav class="container1 pt-5">
+        <nav class="flex items-center justify-between gap-5 max-[589px]:hidden">
+          <nav class="flex items-center gap-2">
+            <p
+              class="rounded-[100px] text-[#a0a3bd] text-[10px] bg-[#f1f1f1] p-2 px-3 max-[1025px]:hidden">
+              Динамично. Надежно. Доступно.
+            </p>
+            <img src="./src/assets/img/russia.png" alt="" />
+            <select
+              class="outline-none bg-transparent text-[#6e7191] text-[14px] hover:text-[#f56e1e] transition-all"
+              name=""
+              id="">
+              <option value="">RU</option>
+            </select>
+          </nav>
+          <nav class="flex items-center justify-between gap-10">
+            <select
+              class="outline-none bg-transparent text-[#6e7191] text-[14px] font-bold hover:text-[#f56e1e] transition-all"
+              name=""
+              id="">
+              <option value="">О компании</option></select
+            ><select
+              class="outline-none bg-transparent text-[#6e7191] text-[14px] font-bold hover:text-[#f56e1e] transition-all"
+              name=""
+              id="">
+              <option value="">Клиентам</option>
+            </select>
+            <a
+              class="text-[14px] font-bold text-[#6e7191] hover:text-[#f56e1e] transition-all"
+              href=""
+              >Сотрудничество</a
+            >
+            <a
+              class="text-[14px] font-bold text-[#6e7191] hover:text-[#f56e1e] transition-all"
+              href=""
+              >Контакты</a
+            >
+          </nav>
+          <nav class="flex items-center gap-4 max-[1289px]:hidden">
+            <img src="./src/assets/svg/tg.svg" alt="" />
+            <img src="./src/assets/svg/vk.svg" alt="" />
+          </nav>
+          <select
+            class="outline-none bg-transparent text-[#6e7191] text-[14px] font-bold hover:text-[#f56e1e] transition-all max-[1191px]:hidden"
+            name=""
+            id="">
+            <option value="">8 (800) 455-45-11</option>
+          </select>
+          <button
+            class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 px-5 flex items-center gap-3 max-[748px]:hidden">
+            <img src="./src/assets/svg/call.svg" alt="" />
+            <p class="max-[1028px]:hidden">Заказть звонок</p>
+          </button>
+        </nav>
+      </nav>
+      <nav class="hidden max-[600px]:block">
+        <nav
+          class="flex items-center justify-around h-16 fixed w-full bottom-0 bg-white z-50">
+          <a class="flex items-center justify-center flex-col gap-1" href="">
+            <img src="./src/assets/svg/home.svg" alt="" />
+            <p class="max-[600px]:text-[10px]">Главная</p>
+          </a>
+          <a class="flex items-center justify-center flex-col gap-1" href="">
+            <img src="./src/assets/svg/katalog.svg" alt="" />
+            <p class="max-[600px]:text-[10px]">Каталог</p>
+          </a>
+          <a class="flex items-center justify-center flex-col gap-1" href="">
+            <img src="./src/assets/svg/cartbottom.svg" alt="" />
+            <p class="max-[600px]:text-[10px]">Корзина</p>
+          </a>
+          <a class="flex items-center justify-center flex-col gap-1" href="">
+            <img src="./src/assets/svg/galllery.svg" alt="" />
+            <p class="max-[600px]:text-[10px]">Избранное</p>
+          </a>
+          <a class="flex items-center justify-center flex-col gap-1" href="">
+            <img src="./src/assets/svg/user.svg" alt="" />
+            <p class="max-[600px]:text-[10px]">Профиль</p>
+          </a>
+        </nav>
+
+        <button
+          class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 px-5 flex items-center gap-3 max-[748px]:hidden">
+          <i class="fa-solid fa-bars text-[30px]"></i>
+          <p class="max-[1024px]:hidden">Каталог</p>
+        </button>
+      </nav>
+    </header>
+    <section>
+      <div class="container1 py-10 max-[533px]:py-0">
+        <div class="relative">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./src/assets/img/showcaseimg.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./src/assets/img/showcaseimg.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./src/assets/img/showcaseimg.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute top-[50%] z-10 flex items-center justify-between px-10 w-[100%] max-[700px]:px-2">
+            <div
+              class="prev1 w-[33px] h-[33px] flex justify-center items-center bg-[#A4BBCB] border-2 border-[#fff] rounded-[100%]">
+              <img src="./chervon1.svg" alt="" />
+            </div>
+            <div
+              class="next1 w-[33px] h-[33px] flex justify-center items-center bg-[#A4BBCB] border-2 border-[#fff] rounded-[100%]">
+              <img src="./chervon2.svg" alt="" />
+            </div>
+          </div>
+          <div
+            class="swiper-pagination text-[#f56e1e] absolute bottom-[-100px] z-10"></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container1">
+        <h1
+          class="text-[32px] font-bold text-[#4E6A82] py-10 max-[500px]:text-[20px]">
+          Популярные категории
+        </h1>
+        <div>
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide max-[400px]:px-2">
+                <div
+                  class="minicard1 flex h-[210px] items-center justify-start flex-col gap-3 bg-[#f1f1f1] py-[24px] rounded-[12px] border-2 border-[#f1f1f1] hover:border-[#f56e1e] transition-all">
+                  <img src="./src/assets/svg/minicard1.svg" alt="" />
+                  <p
+                    class="text-center text-[18px] font-bold text-[#4E6A82] h-[64px] flex justify-center items-center mt-3">
+                    Стартеры <br />
+                    и комплектующие
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide max-[400px]:px-2">
+                <div
+                  class="minicard1 flex h-[210px] items-center justify-start flex-col gap-3 bg-[#f1f1f1] py-[24px] rounded-[12px] border-2 border-[#f1f1f1] hover:border-[#f56e1e] transition-all">
+                  <img src="./src/assets/svg/minicard2.svg" alt="" />
+                  <p
+                    class="text-center text-[18px] font-bold text-[#4E6A82] h-[64px] flex justify-center items-center mt-3">
+                    Термостаты
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide max-[400px]:px-2">
+                <div
+                  class="minicard1 flex h-[210px] items-center justify-start flex-col gap-3 bg-[#f1f1f1] py-[24px] rounded-[12px] border-2 border-[#f1f1f1] hover:border-[#f56e1e] transition-all">
+                  <img src="./src/assets/svg/minicard3.svg" alt="" />
+                  <p
+                    class="text-center text-[18px] font-bold text-[#4E6A82] h-[64px] flex justify-center items-center mt-3">
+                    Датчики <br />
+                    и комбинации <br />
+                    приборов<br />
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide max-[400px]:px-2">
+                <div
+                  class="minicard1 flex h-[210px] items-center justify-start flex-col gap-3 bg-[#f1f1f1] py-[24px] rounded-[12px] border-2 border-[#f1f1f1] hover:border-[#f56e1e] transition-all">
+                  <img src="./src/assets/svg/minicard4.svg" alt="" />
+                  <p
+                    class="text-center text-[18px] font-bold text-[#4E6A82] h-[64px] flex justify-center items-center mt-3">
+                    Генераторы
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide max-[400px]:px-2">
+                <div
+                  class="minicard1 flex h-[210px] items-center justify-start flex-col gap-3 bg-[#f1f1f1] py-[24px] rounded-[12px] border-2 border-[#f1f1f1] hover:border-[#f56e1e] transition-all">
+                  <img src="./src/assets/svg/minicard5.svg" alt="" />
+                  <p
+                    class="text-center text-[18px] font-bold text-[#4E6A82] h-[64px] flex justify-center items-center mt-3">
+                    СВЕТОТЕХНИКА
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide max-[400px]:px-2">
+                <div
+                  class="minicard1 flex h-[210px] items-center justify-start flex-col gap-3 bg-[#f1f1f1] py-[24px] rounded-[12px] border-2 border-[#f1f1f1] hover:border-[#f56e1e] transition-all">
+                  <img src="./src/assets/svg/minicard6.svg" alt="" />
+                  <p
+                    class="text-center text-[18px] font-bold text-[#4E6A82] h-[64px] flex justify-center items-center mt-3">
+                    Электродвигатели <br />
+                     отопителя
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mb-10">
+      <div class="container1">
+        <div class="flex items-center justify-between py-10 max-[500px]:py-7">
+          <h1 class="text-[20px] text-[#4e4b66] font-bold">Новости</h1>
+          <button
+            class="flex items-center gap-2 py-2 px-4 rounded-[12px] border border-black hover:text-white hover:bg-black hover:border-[#fff] transition-all active:scale-[0.9]">
+            <p>Посмотреть все</p>
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="relative">
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="triplecard h-[387px] relative">
+                  <img
+                    width="100%"
+                    height="242px"
+                    src="./src/assets/img/triplecardimg.png"
+                    alt="" />
+                  <p
+                    class="rounded-[12px] bg-[#f56e1e] text-white p-2 w-fit absolute top-3 left-3">
+                    Новость
+                  </p>
+                  <div class="h-[127px] flex flex-col justify-between mt-3">
+                    <p class="font-bold text-[20px] text-[#4e4b66]">
+                      Заголовок в две строчки<br />
+                      или в три строчки
+                    </p>
+                    <div class="flex gap-1 items-center">
+                      <img src="./src/assets/svg/date.svg" alt="" />
+                      <p class="text-[#a0a3bc] text-[12px]">28.09.2022</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="triplecard h-[387px] relative">
+                  <img
+                    width="100%"
+                    height="242px"
+                    src="./src/assets/img/triplecardimg.png"
+                    alt="" />
+                  <p
+                    class="rounded-[12px] bg-[#f56e1e] text-white p-2 w-fit absolute top-3 left-3">
+                    Новость
+                  </p>
+                  <div class="h-[127px] flex flex-col justify-between mt-3">
+                    <p class="font-bold text-[20px] text-[#4e4b66]">
+                      Заголовок в две строчки<br />
+                      или в три строчки<br />
+                      (третья строчка)
+                    </p>
+                    <div class="flex gap-1 items-center">
+                      <img src="./src/assets/svg/date.svg" alt="" />
+                      <p class="text-[#a0a3bc] text-[12px]">28.09.2022</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="triplecard h-[387px] relative">
+                  <img
+                    width="100%"
+                    height="242px"
+                    src="./src/assets/img/triplecardimg.png"
+                    alt="" />
+                  <p
+                    class="rounded-[12px] bg-[#f56e1e] text-white p-2 w-fit absolute top-3 left-3">
+                    Новость
+                  </p>
+                  <div class="h-[127px] flex flex-col justify-between mt-3">
+                    <p class="font-bold text-[20px] text-[#4e4b66]">
+                      Заголовок в две строчки<br />
+                      или в три строчки
+                    </p>
+                    <div class="flex gap-1 items-center">
+                      <img src="./src/assets/svg/date.svg" alt="" />
+                      <p class="text-[#a0a3bc] text-[12px]">28.09.2022</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="triplecard h-[387px] relative">
+                  <img
+                    width="100%"
+                    height="242px"
+                    src="./src/assets/img/triplecardimg.png"
+                    alt="" />
+                  <p
+                    class="rounded-[12px] bg-[#f56e1e] text-white p-2 w-fit absolute top-3 left-3">
+                    Новость
+                  </p>
+                  <div class="h-[127px] flex flex-col justify-between mt-3">
+                    <p class="font-bold text-[20px] text-[#4e4b66]">
+                      Заголовок в две строчки<br />
+                      или в три строчки
+                    </p>
+                    <div class="flex gap-1 items-center">
+                      <img src="./src/assets/svg/date.svg" alt="" />
+                      <p class="text-[#a0a3bc] text-[12px]">28.09.2022</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex items-center justify-between bottom-[65%] w-[100%] absolute z-10 px-4">
+            <div
+              class="prev w-[33px] h-[33px] flex justify-center items-center bg-[#A4BBCB] border-2 border-[#fff] rounded-[100%] hover:bg-[#B06B33] transition-all">
+              <img src="./chervon1.svg" alt="" />
+            </div>
+            <div
+              class="next w-[33px] h-[33px] flex justify-center items-center bg-[#A4BBCB] border-2 border-[#fff] rounded-[100%] hover:bg-[#B06B33] transition-all">
+              <img src="./chervon2.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container1">
+        <h1
+          class="text-[28px] max-[500px]:text-[20px] text-[#585A74] font-bold py-5">
+          Автозапчасти к технике
+        </h1>
+      </div>
+      <div class="container1">
+        <div class="swiper mySwiper4">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="minicar1 border-2 border-[#f1f1f1] hover:border-[#de5703]">
+                <h1 class="text-[#4e4b66] text-[18px] font-bold pb-5">
+                  Грузовые
+                </h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="minicar2 border-2 border-[#f1f1f1] hover:border-[#de5703]">
+                <h1 class="text-[#4e4b66] text-[18px] font-bold pb-5">
+                  Трактора
+                </h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="minicar3 border-2 border-[#f1f1f1] hover:border-[#de5703]">
+                <h1 class="text-[#4e4b66] text-[18px] font-bold pb-5">
+                  Легковые
+                </h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="minicar4 border-2 border-[#f1f1f1] hover:border-[#de5703]">
+                <h1 class="text-[#4e4b66] text-[18px] font-bold pb-5">
+                  Сельхозтехника
+                </h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="minicar5 border-2 border-[#f1f1f1] hover:border-[#de5703]">
+                <h1 class="text-[#4e4b66] text-[18px] font-bold pb-5">
+                  Автобусы
+                </h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="minicar6 border-2 border-[#f1f1f1] hover:border-[#de5703]">
+                <h1 class="text-[#4e4b66] text-[18px] font-bold pb-5">
+                  Спецтехника
+                </h1>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="minicar7 border-2 border-[#f1f1f1] hover:border-[#de5703]">
+                <h1 class="text-[#4e4b66] text-[18px] font-bold pb-5">
+                  Другое
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="my-10">
+      <div class="container1">
+        <h1
+          class="text-[28px] max-[500px]:text-[20px] text-[#585A74] font-bold py-5">
+          Хиты продаж
+        </h1>
+      </div>
+      <div class="container1">
+        <div>
+          <div class="swiper mySwiper6">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide mx-auto h-[210px]">
+                <div class="mx-auto max-[500px]:w-[100%]">
+                  <img src="./src/assets/img/fara.png" alt="" />
+                  <div>
+                    <div class="flex items-center gap-1 pt-2">
+                      <h1 class="font-bold hover:text-[#de5703] transition-all">
+                        999999 ₽
+                      </h1>
+                      <sup class="text-[#a0a3bd] font-medium"
+                        ><s>999999 ₽</s></sup
+                      >
+                    </div>
+                    <p
+                      class="text-[12px] text-[#6e7191] pt-2 hover:text-[#f56e1e] transition-all w-fit">
+                      Фара светодиодная <br />
+                      дополнительная круглая,<br />
+                      направленный свет,<br />
+                      14 диодов, 42W, (115х42х142)
+                    </p>
+
+                    <h1 class="text-[18px] font-bold">
+                      <span class="font-medium">Кат. номер: <br /> </span>
+                      AE42R-14LED-42HC
+                    </h1>
+                    <button
+                      class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 w-[100%] flex items-center justify-center gap-3">
+                      <p class="">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        В корзину
+                      </p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide mx-auto h-[210px]">
+                <div class="mx-auto max-[500px]:w-[100%]">
+                  <img src="./src/assets/img/fara.png" alt="" />
+                  <div>
+                    <div class="flex items-center gap-1 pt-2">
+                      <h1 class="font-bold hover:text-[#de5703] transition-all">
+                        999999 ₽
+                      </h1>
+                      <sup class="text-[#a0a3bd] font-medium"
+                        ><s>999999 ₽</s></sup
+                      >
+                    </div>
+                    <p
+                      class="text-[12px] text-[#6e7191] pt-2 hover:text-[#f56e1e] transition-all w-fit">
+                      Фара светодиодная <br />
+                      дополнительная круглая,<br />
+                      направленный свет,<br />
+                      14 диодов, 42W, (115х42х142)
+                    </p>
+
+                    <h1 class="text-[18px] font-bold">
+                      <span class="font-medium">Кат. номер: <br /> </span>
+                      AE42R-14LED-42HC
+                    </h1>
+                    <button
+                      class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 w-[100%] flex items-center justify-center gap-3">
+                      <p class="">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        В корзину
+                      </p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide mx-auto h-[210px]">
+                <div class="mx-auto max-[500px]:w-[100%]">
+                  <img src="./src/assets/img/fara.png" alt="" />
+                  <div>
+                    <div class="flex items-center gap-1 pt-2">
+                      <h1 class="font-bold hover:text-[#de5703] transition-all">
+                        999999 ₽
+                      </h1>
+                      <sup class="text-[#a0a3bd] font-medium"
+                        ><s>999999 ₽</s></sup
+                      >
+                    </div>
+                    <p
+                      class="text-[12px] text-[#6e7191] pt-2 hover:text-[#f56e1e] transition-all w-fit">
+                      Фара светодиодная <br />
+                      дополнительная круглая,<br />
+                      направленный свет,<br />
+                      14 диодов, 42W, (115х42х142)
+                    </p>
+
+                    <h1 class="text-[18px] font-bold">
+                      <span class="font-medium">Кат. номер: <br /> </span>
+                      AE42R-14LED-42HC
+                    </h1>
+                    <button
+                      class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 w-[100%] flex items-center justify-center gap-3">
+                      <p class="">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        В корзину
+                      </p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide mx-auto h-[210px]">
+                <div class="mx-auto max-[500px]:w-[100%]">
+                  <img src="./src/assets/img/fara.png" alt="" />
+                  <div>
+                    <div class="flex items-center gap-1 pt-2">
+                      <h1 class="font-bold hover:text-[#de5703] transition-all">
+                        999999 ₽
+                      </h1>
+                      <sup class="text-[#a0a3bd] font-medium"
+                        ><s>999999 ₽</s></sup
+                      >
+                    </div>
+                    <p
+                      class="text-[12px] text-[#6e7191] pt-2 hover:text-[#f56e1e] transition-all w-fit">
+                      Фара светодиодная <br />
+                      дополнительная круглая,<br />
+                      направленный свет,<br />
+                      14 диодов, 42W, (115х42х142)
+                    </p>
+
+                    <h1 class="text-[18px] font-bold">
+                      <span class="font-medium">Кат. номер: <br /> </span>
+                      AE42R-14LED-42HC
+                    </h1>
+                    <button
+                      class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 w-[100%] flex items-center justify-center gap-3">
+                      <p class="">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        В корзину
+                      </p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide mx-auto h-[210px]">
+                <div class="mx-auto max-[500px]:w-[100%]">
+                  <img src="./src/assets/img/fara.png" alt="" />
+                  <div>
+                    <div class="flex items-center gap-1 pt-2">
+                      <h1 class="font-bold hover:text-[#de5703] transition-all">
+                        999999 ₽
+                      </h1>
+                      <sup class="text-[#a0a3bd] font-medium"
+                        ><s>999999 ₽</s></sup
+                      >
+                    </div>
+                    <p
+                      class="text-[12px] text-[#6e7191] pt-2 hover:text-[#f56e1e] transition-all w-fit">
+                      Фара светодиодная <br />
+                      дополнительная круглая,<br />
+                      направленный свет,<br />
+                      14 диодов, 42W, (115х42х142)
+                    </p>
+
+                    <h1 class="text-[18px] font-bold">
+                      <span class="font-medium">Кат. номер: <br /> </span>
+                      AE42R-14LED-42HC
+                    </h1>
+                    <button
+                      class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 w-[100%] flex items-center justify-center gap-3">
+                      <p class="">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        В корзину
+                      </p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide mx-auto h-[210px]">
+                <div class="mx-auto max-[500px]:w-[100%]">
+                  <img src="./src/assets/img/fara.png" alt="" />
+                  <div>
+                    <div class="flex items-center gap-1 pt-2">
+                      <h1 class="font-bold hover:text-[#de5703] transition-all">
+                        999999 ₽
+                      </h1>
+                      <sup class="text-[#a0a3bd] font-medium"
+                        ><s>999999 ₽</s></sup
+                      >
+                    </div>
+                    <p
+                      class="text-[12px] text-[#6e7191] pt-2 hover:text-[#f56e1e] transition-all w-fit">
+                      Фара светодиодная <br />
+                      дополнительная круглая,<br />
+                      направленный свет,<br />
+                      14 диодов, 42W, (115х42х142)
+                    </p>
+
+                    <h1 class="text-[18px] font-bold">
+                      <span class="font-medium">Кат. номер: <br /> </span>
+                      AE42R-14LED-42HC
+                    </h1>
+                    <button
+                      class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 w-[100%] flex items-center justify-center gap-3">
+                      <p class="">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        В корзину
+                      </p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container1">
+        <div
+          class="flex items-center gap-5 max-[968px]:grid max-[1200px]:grid-cols-2 max-[768px]:flex max-[768px]:flex-col">
+          <div
+            class="rounded-[20px] border p-[21px] flex items-center gap-5 max-[425px]:flex-col max-[425px]:justify-center max-[425px]:items-center">
+            <img
+              class="max-[1200px]:hidden max-[425px]:block"
+              src="./src/assets/svg/triple1.svg"
+              alt="" />
+            <div class="max-[425px]:text-center">
+              <h1
+                class="text-[28px] text-[#f56e1e] max-[1200px]:flex max-[1200px]:items-center gap-5 max-[1200px]:mb-10 max-[425px]:justify-center max-[425px]:mb-3">
+                <img
+                  class="hidden max-[1200px]:block max-[425px]:hidden"
+                  src="./src/assets/svg/triple1.svg"
+                  alt="" />
+                Динамично
+              </h1>
+              <p class="text-[#6e7191]">
+                Мы предлагаем более 15000 наименований запчастей на все виды
+                автотранспортных средств, тракторную и сельхозтехнику,
+                спецтехнику.
+              </p>
+            </div>
+          </div>
+          <div
+            class="rounded-[20px] border p-[21px] flex items-center gap-5 max-[425px]:flex-col max-[425px]:justify-center max-[425px]:items-center">
+            <img
+              class="max-[1200px]:hidden max-[425px]:block"
+              src="./src/assets/svg/triple2.svg"
+              alt="" />
+            <div class="max-[425px]:text-center">
+              <h1
+                class="text-[28px] text-[#f56e1e] max-[1200px]:flex max-[1200px]:items-center gap-5 max-[1200px]:mb-10 max-[425px]:justify-center max-[425px]:mb-3">
+                <img
+                  class="hidden max-[1200px]:block max-[425px]:hidden"
+                  src="./src/assets/svg/triple1.svg"
+                  alt="" />
+                Надежно
+              </h1>
+              <p class="text-[#6e7191]">
+                Мы предлагаем более 15000 наименований запчастей на все виды
+                автотранспортных средств, тракторную и сельхозтехнику,
+                спецтехнику.
+              </p>
+            </div>
+          </div>
+          <div
+            class="rounded-[20px] border p-[21px] flex items-center gap-5 max-[425px]:flex-col max-[425px]:justify-center max-[425px]:items-center">
+            <img
+              class="max-[1200px]:hidden max-[425px]:block"
+              src="./src/assets/svg/triple3.svg"
+              alt="" />
+            <div class="max-[425px]:text-center">
+              <h1
+                class="text-[28px] text-[#f56e1e] max-[1200px]:flex max-[1200px]:items-center gap-5 max-[1200px]:mb-10 max-[425px]:justify-center max-[425px]:mb-3">
+                <img
+                  class="hidden max-[1200px]:block max-[425px]:hidden"
+                  src="./src/assets/svg/triple1.svg"
+                  alt="" />
+                Доступно
+              </h1>
+              <p class="text-[#6e7191]">
+                Мы предлагаем более 15000 наименований запчастей на все виды
+                автотранспортных средств, тракторную и сельхозтехнику,
+                спецтехнику.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container1">
+        <div class="lngrdnt">
+          <h1
+            class="text-[28px] max-[500px]:text-[18px] text-[#585A74] font-bold py-5">
+            Оптовая продажа автотракторных запчастей
+          </h1>
+          <p>
+            Гармоничное развитие всех подразделений компании в условиях
+            современного рынка дает нам возможность вместе с нашими партнерами
+            чувствовать уверенность в завтрашнем дне. <br /><br />
+            <span class="max-[425px]:hidden">
+              Наша компания начала свой путь на рынке автозапчастей в 1993-м. За
+              27 лет работы в условиях жесткой конкуренции мы приобрели
+              колоссальный опыт, устойчивый, постоянно расширяемый рынок
+            </span>
+          </p>
+          <div class="text-center mx-auto">
+            <select class="outline-none" name="" id="">
+              <option
+                class="flex justify-center items-center text-center"
+                value="">
+                Читать далее
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="my-16">
+      <div class="container1 bg-[#fde9de] p-[25px] rounded-[20px]">
+        <h1
+          class="text-[28px] max-[500px]:text-[18px] text-[#585A74] font-bold py-5">
+          Выберите категорию рассылки
+        </h1>
+        <div class="">
+          <div
+            class="flex items-center max-[777px]:items-start justify-between">
+            <div
+              class="flex items-center gap-3 max-[777px]:flex-col max-[777px]:text-center">
+              <img src="./src/assets/svg/tick.svg" alt="" />
+              <p class="max-[500px]:text-[12px]">
+                Электронная <br class="max-[777px]:block hidden" />
+                версия <br class="max-[777px]:hidden" />
+                каталога <br class="max-[777px]:block hidden" />
+              </p>
+            </div>
+            <div
+              class="flex items-center gap-3 max-[777px]:flex-col max-[777px]:text-center">
+              <img src="./src/assets/svg/tick2.svg" alt="" />
+              <p class="max-[500px]:text-[12px]">
+                Прайс-лист<br />
+                с актуальными ценами
+              </p>
+            </div>
+            <div
+              class="flex items-center gap-3 max-[777px]:flex-col max-[777px]:text-center">
+              <img src="./src/assets/svg/tick.svg" alt="" />
+              <p class="max-[500px]:text-[12px]">
+                Информация<br />
+                о новинках и акциях
+              </p>
+            </div>
+            <div
+              class="w-[30%] p-3 bg-white rounded-[12px] max-[1208px]:hidden">
+              <input
+                placeholder="Введите Ваш e-mail"
+                class="w-[100%] bg-white rounded outline-none"
+                type="email" />
+            </div>
+            <button
+              class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 w-fit px-5 flex items-center justify-center gap-3 max-[1208px]:hidden">
+              <p class="">Подписаться</p>
+            </button>
+          </div>
+        </div>
+        <br />
+        <p
+          class="text-[#6e7191] mt-5 max-[810px]:text-center max-[425px]:text-[12px] max-[1208px]:hidden">
+          Нажимая «Подписаться», вы соглашаетесь
+          <br class="hidden max-[1208px]:block" />
+          с
+          <span class="text-[#f56e1e]">политикой конфиденциальности</span>
+        </p>
+        <div class="hidden max-[1210px]:block">
+          <div
+            class="flex items-center justify-between max-[810px]:flex-col max-[810px]:gap-5">
+            <div
+              class="w-[30%] p-3 bg-white rounded-[12px] hidden max-[810px]:block max-[810px]:w-[100%]">
+              <input
+                placeholder="Введите Ваш e-mail"
+                class="w-[100%] bg-white rounded outline-none"
+                type="email" />
+            </div>
+            <div
+              class="min-[810px]:hidden max-[810px]:block max-[810px]:w-[100%]">
+              <button
+                class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 w-fit px-5 flex items-center justify-center gap-3 max-[810px]:w-[100%]">
+                <p class="">Подписаться</p>
+              </button>
+            </div>
+            <p
+              class="text-[#6e7191] mt-5 max-[810px]:text-center max-[425px]:text-[12px]">
+              Нажимая «Подписаться», вы соглашаетесь
+              <br class="hidden max-[1208px]:block" />
+              с
+              <span class="text-[#f56e1e]">политикой конфиденциальности</span>
+            </p>
+            <div class="w-[30%] p-3 bg-white rounded-[12px] max-[810px]:hidden">
+              <input
+                placeholder="Введите Ваш e-mail"
+                class="w-[100%] bg-white rounded outline-none"
+                type="email" />
+            </div>
+            <button
+              class="text-[18px] rounded-[12px] bg-[#f56e1e] text-[white] border border-[#f56e1e] hover:text-[#f56e1e] hover:bg-white transition-all active:scale-[0.9] py-2 w-fit px-5 flex items-center justify-center gap-3 max-[810px]:hidden">
+              <p class="">Подписаться</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-[#f1f1f1]">
+      <div class="container1 py-10 pb-20 max-[810px]:pb-30">
+        <div
+          class="flex items-start justify-between max-[1005px]:grid grid-cols-2 max-[1005px]:gap-y-7 max-[430px]:grid-cols-1">
+          <div
+            class="text-[12px] text-[#6e7191] max-[430px]:flex max-[430px]:flex-col max-[430px]:items-center max-[430px]:justify-center max-[430px]:text-center">
+            <a href="">
+              <img src="./src/assets/svg/secondlogo.svg" alt="" />
+            </a>
+            <br />
+            <p>
+              Оптовая продажа запчастей <br />
+              на все виды автотранспортных средств
+            </p>
+            <br />
+            <p>
+              ИП Хомченко Максим Альбертович <br />
+              ОГРНИП 000000000
+            </p>
+            <br />
+
+            <div class="hidden max-[430px]:block">
+              <p class="underline">
+                Ссылка на форму обратной связи со <br />
+                службой контроля качества
+              </p>
+              <div class="flex items-center gap-5 justify-center py-2">
+                <img src="./src/assets/svg/tg.svg" alt="" />
+                <img src="./src/assets/svg/vk.svg " alt="" />
+              </div>
+            </div>
+            <br />
+            <p>1993 - 2022 © АвтоЭлектрика</p>
+            <a class="underline" href="">Политика конфиденциальности</a>
+          </div>
+          <div class="flex items-start flex-col gap-2 max-[430px]:hidden">
+            <h1 class="font-bold text-[#6e7191]">Клиентам</h1>
+            <br />
+            <a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Новости</a
+            >
+            <a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Как зарегестрироваться</a
+            ><a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Как сделать заказ</a
+            ><a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Способы оплаты</a
+            ><a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Гарантии возврата
+            </a>
+            <a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Вопросы и ответы</a
+            >
+            <a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Доставка и склад</a
+            >
+          </div>
+
+          <div class="flex items-start flex-col gap-2 max-[430px]:hidden">
+            <h1 class="font-bold text-[#6e7191]">О компании</h1>
+            <br />
+            <a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Документы и реквизиты</a
+            >
+            <a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Бренды</a
+            ><a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Сотрудники</a
+            ><a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Контакты</a
+            ><a
+              class="text-[14px] text-[#6e7191] hover:text-[#a0a3bc] transition-all"
+              href=""
+              >Карьера</a
+            >
+          </div>
+          <div class="max-[1146px]:hidden">
+            <h1 class="font-bold text-[#6e7191]">Сотрудничество</h1>
+          </div>
+          <div
+            class="flex flex-col items-end gap-5 max-[1005px]:items-start max-[1005px]:text-left max-[430px]:hidden">
+            <div
+              class="flex items-center justify-between gap-10 max-[835px]:gap-2 max-[744px]:hidden border-b border-b-[#ccc] py-1 max-[1005px]:text-left">
+              <p>
+                Ссылка на форму обратной связи со <br />
+                службой контроля качества
+              </p>
+              <div class="flex items-center gap-5">
+                <img src="./src/assets/svg/tg.svg" alt="" />
+                <img src="./src/assets/svg/vk.svg " alt="" />
+              </div>
+            </div>
+            <div
+              class="text-right flex items-end flex-col max-[1005px]:items-start max-[430px]:hidden">
+              <p class="text-[14px] text-[#a0a3bc]">Время работы</p>
+              <p class="text-[#6e7191] font-bold">пн. - пт. с 7:30 до 18:00</p>
+            </div>
+            <div
+              class="text-right flex items-end flex-col max-[1005px]:items-start">
+              <p class="text-[14px] text-[#a0a3bc]">Телефоны:</p>
+              <a class="text-[#6e7191] font-bold" href="">
+                8 (800) 455-55-15
+              </a>
+              <a class="text-[#6e7191] font-bold" href="">+7 (495) 108-54-64</a>
+            </div>
+            <div class="text-right max-[1005px]:items-start">
+              <p class="text-[14px] text-[#a0a3bc]">Адрес эл. почты</p>
+              <a class="text-[#6e7191] font-bold" href="">info@auto-e.ru</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".next1",
+          prevEl: ".prev1",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+      var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          280: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          400: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          600: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          800: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+
+          1000: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+          1200: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+          },
+        },
+      });
+      var swiper = new Swiper(".mySwiper3", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        navigation: {
+          nextEl: ".next",
+          prevEl: ".prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          280: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+      var swiper = new Swiper(".mySwiper4", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          280: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          400: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          600: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          800: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+
+          1000: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+          1200: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+          },
+          1300: {
+            slidesPerView: 7,
+            spaceBetween: 20,
+          },
+        },
+      });
+      var swiper = new Swiper(".mySwiper6", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          280: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          400: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          600: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          800: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+
+          1000: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+          1200: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
